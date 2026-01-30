@@ -1,0 +1,170 @@
+# HTML Resume Page Assignment
+
+By Dayanand Singh | 27-jan-2026
+
+- [Vercell Link](https://html-resume-page-assignment-27-jan.vercel.app/?%5C_vercel_share=YeZ5ESkelIyJFC6AGojoPmUiC4OLV32e) OR [https://html-resume-page-assignment-27-jan.vercel.app/](https://html-resume-page-assignment-27-jan.vercel.app/)
+- [Screenshots](#screenshots)
+- [Code](#code)
+
+## ScreenShots
+
+<img src="./output/Screenshot 2026-01-30 at 6.45.25 PM.png">
+
+<img src="./output/Screenshot 2026-01-30 at 6.45.48 PM.png">
+
+## Code
+
+1. HTML
+
+    ```html
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./src/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>html-resume-page-assignment-27-jan-2026</title>
+    </head>
+    <body>
+        <hr>
+        <header class="header">
+        <h1>John Doe</h1>
+        <p>Full Stack Developer | Web Designer | Tech Enthusiast</p>
+        <hr>
+        </header>
+
+        <main class="main">
+        <section class="about-me">
+            <h2>About Me</h2>
+            I am a passionate with 5+ years of experience in building web applications. I specialize in HTML, CSS, JavaScript and backend technologies.
+        </section>
+        <hr>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript</li>
+            <li>React and Vue.js</li>
+            <li>Node.js and express</li>
+            <li>MongoDB and MySQl</li>
+            <li>Git and GitHub</li>
+            </ul>
+        </section>
+        <hr>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <table>
+            <!-- <caption>my Experience</caption> -->
+            <thead>
+                <tr>
+                <th scope="col">Position</th>
+                <th scope="col">Company</th>
+                <th scope="col">Duration</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                <td>Senior Developer</td>
+                <td>Tech Solutions Inc</td>
+                <td>2021 - present</td>
+                </tr>
+                <tr>
+                <td>Web Developer</td>
+                <td>Digital Innovations</td>
+                <td>2019 - 2021</td>
+                </tr>
+                <tr>
+                <td>Junior Developer</td>
+                <td>StartUp Co.</td>
+                <td>2018 - 2019</td>
+                </tr>
+
+            </tbody>
+
+            </table>
+
+        </section>
+        <hr>
+
+        <section class="projects">
+            <h2>Projects</h2>
+
+            <article class="project-one">
+            <h3>Project 1: E-Commerece Website</h3>
+            <p>Built a fully functional e-commerece plateform with product listings, cart management and payment integretion</p>
+            <ul>
+                <li>Technologies: react, node.js, MongoDB</li>
+                <li>Timeline: 6 Months</li>
+            </ul>
+            </article>
+
+            <article class="project-two">
+            <h3>Project 2: blog Platform</h3>
+            <p>Developed a blogging plateform with user authentication and contact management features.</p>
+            <ul>
+                <li>Technologies: HTML. CSS, JavaScript, express</li>
+                <li>Timeline: 3 Months</li>
+            </ul>
+            </article>
+        </section>
+        <hr>
+
+        <section class="education">
+            <h2>Education</h2>
+            <table>
+            <thead>
+                <tr>
+                <th scope="col">Degree</th>
+                <th scope="col">Institution</th>
+                <th scope="col">year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Bachelor in Computer Science</td>
+                <td>State University</td>
+                <td>2018</td>
+                </tr>
+
+                <tr>
+                <td>Web Development Bootcamp</td>
+                <td>Online Academy</td>
+                <td>2017</td>
+                </tr>
+            </tbody>
+            </table>
+        </section>
+        <hr>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>
+            <strong>Email:</strong> john.doe@example.com <br><br>
+            <strong>Phone:</strong> +1 (555) 123-4567 <br><br>
+            <strong>Location:</strong> New York, USA
+            </p>
+        </section> 
+        <hr>
+        </main>
+
+        <footer class="footer">
+        <p>
+            &copy; 2024 John Doe. All right reserved
+        </p>
+        </footer>
+    </body>
+    </html>
+    ```
+1. CSS
+    ```css
+    * {
+    box-sizing: border-box;
+    }
+
+    table, th, td {
+    border: 1px solid #111;
+    }
+    ```
